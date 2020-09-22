@@ -4,7 +4,6 @@ from position import Position
 class Chamber(object):
     def __init__(self, initial_positions):
         self.initial_positions = initial_positions
-        self.positions = []
         self.set_initial_positions()
 
     def animate_frame(self, speed):
