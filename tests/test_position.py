@@ -27,5 +27,5 @@ class TestPosition(unittest.TestCase):
         position.reset_just_moved()
         self.assertEqual(position.particles[0].is_just_moved, False)
 
-if __name__=='__main__':
-      unittest.main()
+if __name__== '__main__':
+    unittest.main()

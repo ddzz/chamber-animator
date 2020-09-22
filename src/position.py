@@ -1,5 +1,3 @@
-from particle import Particle
-
 class Position(object):
     def __init__(self):
         self.particles = []

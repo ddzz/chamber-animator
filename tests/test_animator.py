@@ -56,5 +56,5 @@ class TestAnimator(unittest.TestCase):
         self.assertRaises(ValueError, lambda: animator.animate(0, "..R."))
         self.assertRaises(ValueError, lambda: animator.animate(2, ".a...RL."))
 
-if __name__=='__main__':
-      unittest.main()
+if __name__== '__main__':
+    unittest.main()

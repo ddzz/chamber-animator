@@ -41,5 +41,5 @@ class TestChamber(unittest.TestCase):
         self.assertEqual(chamber.animate(4), ["..X.XX.", "X.....X", "......."])
         self.assertEqual(chamber.animate(5), ["..X.XX.", "......."])
 
-if __name__=="__main__":
-      unittest.main()
+if __name__== "__main__":
+    unittest.main()

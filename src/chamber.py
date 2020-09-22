@@ -15,10 +15,10 @@ class Chamber(object):
 
                 position.remove_particle(particle_index)
 
-                new_position = (position_index - speed) if particle.type == "L" else (position_index + speed)
+                new_position = (position_index - speed) if particle.direction == "L" else (position_index + speed)
 
                 if self.in_bounds(new_position):
-                    new_particle = Particle(particle.type)
+                    new_particle = Particle(particle.direction)
                     self.positions[new_position].add_particle(new_particle)
                     new_particle.is_just_moved = True
             position.cleanup_after_deleted_particles()
