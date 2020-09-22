@@ -1,8 +1,8 @@
 import unittest
+
 from src.particle import Particle
 from src.position import Position
 from src.chamber import Chamber
-from IPython import embed
 
 class TestChamber(unittest.TestCase):
     def test_chamber_methods(self):

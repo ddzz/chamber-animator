@@ -1,5 +1,5 @@
-from IPython import embed
 import unittest
+
 from src.particle import Particle
 from src.position import Position
 from src.chamber import Chamber
